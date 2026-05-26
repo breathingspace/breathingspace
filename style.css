@@ -5,7 +5,8 @@ body {
   line-height: 1.6;
   color: #111;
   padding: 0 20px;
-  nav {
+}
+ nav {
   margin-bottom: 20px;
 }
 
@@ -15,5 +16,4 @@ h1 {
 
 hr {
   margin: 20px 0;
-}
 }
