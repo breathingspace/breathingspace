@@ -17,3 +17,8 @@ h1 {
 hr {
   margin: 20px 0;
 }
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
