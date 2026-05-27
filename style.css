@@ -4,11 +4,15 @@
 body {
   max-width: 700px;
   margin: 80px auto;
+  padding: 0 20px;
+  
   font-family: serif;
+  font-size: 1rem;
   line-height: 1.7;
+  
   color: #111;
   background: #fcf5e0;
-  padding: 0 20px;
+  
 }
 
 /* Navigationsleiste, oben */
@@ -22,17 +26,22 @@ nav a.active {
 }
 
 /* Typographie, Hauptstruktur */
+/* Headings */
 h1 {
   margin-top: 10px;
-  color: #3e3528;
+  margin-bottom: 10px;
+  
   font-size: 1.8rem;
   font-weight: normal;
+
+  color: #3e3528;
 }
+/* Text */
 p {
   margin-bottom: 14px;
 }
 
-/* Inhalte */
+/* Inhalte, Listen, Einträge */
 ul {
   padding-left: 20px;
 }
