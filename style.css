@@ -44,4 +44,8 @@ li {
   margin-bottom: 10px;
 }
 
-
+h2 {
+  font-size: 1rem;
+  margin-top: 40px;
+  letter-spacing: 0.03em;
+}
