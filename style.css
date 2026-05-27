@@ -1,3 +1,5 @@
+
+/* Layout, Grundstruktur */
 body {
   max-width: 700px;
   margin: 80px auto;
@@ -7,43 +9,46 @@ body {
   background: #fcf5e0;
   padding: 0 20px;
 }
+
+/* Navigationsleiste, oben */
  nav {
   margin-bottom: 20px;
   font-size: 0.9rem;
 }
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
+/* Typographie, Hauptstruktur */
 h1 {
   margin-top: 10px;
   color: #3e3528;
   font-size: 1.8rem;
   font-weight: normal;
 }
-
-hr {
-  margin: 20px 0;
+p {
+  margin-bottom: 14px;
 }
 
-nav a.active {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-a {
-  color: #5c5346;
-}
-
-a:hover {
-  opacity: 0.7;
-}
-
+/* Inhalte */
 ul {
   padding-left: 20px;
 }
-
 li {
   margin-bottom: 10px;
 }
 
-p {
-  margin-bottom: 14px;
+/* Links */
+a {
+  color: #5c5346;
 }
+a:hover {
+  opacity: 0.7;
+}
+
+/* Trennelemente */
+hr {
+  margin: 20px 0;
+}
+
