@@ -51,3 +51,7 @@ h2 {
   letter-spacing: 0.03em;
   color: #6a6257;
 }
+
+p {
+  margin-bottom: 14px;
+}
