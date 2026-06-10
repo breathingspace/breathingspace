@@ -9,10 +9,9 @@ body {
   font-family: serif;
   font-size: 1rem;
   line-height: 1.7;
-  
-  color: #111;
-  background: #fcf5e0;
-  
+
+  color: #2d2a26;
+  background: #f5f0e1;
 }
 
 /* Navigationsleiste, oben */
@@ -34,7 +33,7 @@ h1 {
   font-size: 1.8rem;
   font-weight: normal;
 
-  color: #3e3528;
+  color: #4b4032;
 }
 /* Text */
 p {
